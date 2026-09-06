@@ -6,7 +6,7 @@ function dailyLog163() {
     { subject: "English", minutes: 25 }
   ];
 
-  const totalMinutes = sessions.reduce(
+  const totalMinutes = sessions.reduc(
     (sum, session) => sum + session.minutes,
     0
   );
